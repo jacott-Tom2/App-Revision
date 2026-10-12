@@ -13,6 +13,30 @@ L’application s’ouvre avec un lien dans le navigateur sur iPhone, iPad et or
 - Proposer un parcours adapté au niveau de l’élève.
 - Montrer les progrès réalisés pour chaque leçon et aider l’élève à choisir quoi revoir ensuite.
 
+## Référentiel scolaire : Plan d’études romand (PER)
+
+L’application peut s’appuyer sur la structure du PER pour classer les matières et relier une leçon à des objectifs scolaires. Le PER organise les apprentissages en domaines, disciplines, objectifs et cycles. La version en ligne intégrant l’éducation numérique est la référence actuelle.
+
+### Domaines et matières
+
+- **Langues** : français (L1), allemand (L2), anglais (L3).
+- **Mathématiques et Sciences de la nature**.
+- **Sciences humaines et sociales** : géographie, histoire, citoyenneté.
+- **Arts** : activités créatrices et manuelles, arts visuels, musique.
+- **Corps et mouvement** : éducation physique, éducation nutritionnelle.
+- **Éducation numérique** : médias, science informatique, usages.
+
+La formation générale et les capacités transversales complètent ces domaines, avec notamment la collaboration, la communication, les stratégies d’apprentissage, la pensée créatrice et la démarche réflexive.
+
+### Utilisation dans l’application
+
+- Classer une leçon selon la matière, le cycle et l’objectif PER correspondant.
+- Enregistrer le code et l’intitulé de l’objectif, avec un lien vers sa source officielle.
+- Construire des fiches et exercices liés à la leçon de l’élève, puis suivre ses résultats par objectif.
+- Présenter le PER comme un repère pédagogique ; conserver les textes officiels complets sur le portail CIIP.
+
+Références : [domaines du PER](https://portail.ciip.ch/per/domains), [français – L1](https://portail.ciip.ch/per/disciplines/1), [allemand – L2](https://portail.ciip.ch/per/disciplines/3), [anglais – L3](https://portail.ciip.ch/per/disciplines/4), [version et formes du PER](https://portail.ciip.ch/per/pages/formes).
+
 ## Parcours utilisateur
 
 1. L’élève ouvre l’application à partir d’un lien.
