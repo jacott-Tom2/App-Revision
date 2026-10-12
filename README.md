@@ -98,6 +98,24 @@ La première version doit permettre de réaliser le parcours de bout en bout :
 - Indication claire lorsque la photo est floue ou que le texte a été mal reconnu.
 - Contrôle par l’utilisateur de ses documents et de leur suppression.
 
+## Alarme de quota Codex / Pi
+
+L’environnement de développement Pi peut surveiller le quota Codex depuis l’endpoint d’usage ChatGPT :
+
+`https://chatgpt.com/backend-api/wham/usage`
+
+L’alarme est configurée pour se déclencher à **50 % de quota utilisé**, avec une vérification toutes les **5 minutes**. Elle surveille les fenêtres de quota de 5 heures et hebdomadaire, puis affiche une notification Pi lorsque le seuil est franchi.
+
+### Commandes Pi
+
+```text
+/codex alarm status
+/codex alarm 50 5
+/codex alarm off
+```
+
+La configuration est stockée localement dans `~/.pi/agent/codex-accounts.json` et ne doit jamais être commitée, car l’authentification OAuth reste privée. L’alarme nécessite une session Pi ouverte et un compte `openai-codex` authentifié. Après installation ou modification, redémarrer Pi pour charger l’extension.
+
 ## Documentation GitHub
 
 Ce README sert de référence produit initiale. La suite du projet pourra documenter les tâches dans les *Issues*, les étapes dans une *Roadmap*, puis les choix techniques dans un document d’architecture dédié.
